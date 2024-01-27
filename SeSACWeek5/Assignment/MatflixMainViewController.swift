@@ -35,7 +35,7 @@ class MatflixMainViewController: UIViewController {
         view.backgroundColor = UIColor(named: "background")
         titleLabel.text = "고래밥님"
         titleLabel.textColor = .accent
-        titleLabel.font = .systemFont(ofSize: 22, weight: .heavy)
+        titleLabel.font = .systemFont(ofSize: 22, weight: .bold)
         
         mainImage.image = UIImage(named: "명량")
         mainImage.contentMode = .scaleToFill

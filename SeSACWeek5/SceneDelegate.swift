@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: scene)
         
-        window?.rootViewController = CustomTableViewController()
+        window?.rootViewController = MatflixSearchViewController()
         window?.makeKeyAndVisible()
     }
 
