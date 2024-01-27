@@ -22,6 +22,7 @@
 		C1381BC92B634961001A5285 /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1381BC82B634961001A5285 /* SnapViewController.swift */; };
 		C1381BCB2B6357A4001A5285 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1381BCA2B6357A4001A5285 /* CustomTableViewController.swift */; };
 		C1381BCD2B635D3D001A5285 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1381BCC2B635D3D001A5285 /* CustomTableViewCell.swift */; };
+		C18879442B63AD4E000A770C /* MatflixMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18879432B63AD4E000A770C /* MatflixMainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		C1381BC82B634961001A5285 /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
 		C1381BCA2B6357A4001A5285 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		C1381BCC2B635D3D001A5285 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C18879432B63AD4E000A770C /* MatflixMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatflixMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		C1381BA22B5F8EE7001A5285 /* SeSACWeek5 */ = {
 			isa = PBXGroup;
 			children = (
+				C18879422B63ACDB000A770C /* Assignment */,
 				C1381BBE2B622D8E001A5285 /* CodeBase */,
 				C1381BB92B61E5F7001A5285 /* GCD */,
 				C1381BA32B5F8EE7001A5285 /* AppDelegate.swift */,
@@ -106,6 +109,14 @@
 				C1381BCC2B635D3D001A5285 /* CustomTableViewCell.swift */,
 			);
 			path = CodeBase;
+			sourceTree = "<group>";
+		};
+		C18879422B63ACDB000A770C /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				C18879432B63AD4E000A770C /* MatflixMainViewController.swift */,
+			);
+			path = Assignment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1381BA82B5F8EE7001A5285 /* ViewController.swift in Sources */,
+				C18879442B63AD4E000A770C /* MatflixMainViewController.swift in Sources */,
 				C1381BC22B633472001A5285 /* ConstraintsViewController.swift in Sources */,
 				C1381BBB2B61E621001A5285 /* NasaViewController.swift in Sources */,
 				C1381BBD2B61EA9F001A5285 /* EndPoint.swift in Sources */,
